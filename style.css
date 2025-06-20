@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: fantasy;
+    background-color: #231942;
+    padding: 10px;
+}
+
+header{
+    height: 60px;
+    /* line-height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE95C4;
+    width: 300px;
+    margin-left: 42%;
+    border-radius: 10px;
+    color: #5E548E;
+    font-size: 2rem;
+    transition: all 0.23s ease-in-out;
+}
+
+header:hover{
+    border: 4px solid #EF81BD;
+    transform: scale(0.9);
+}
+main{
+    height: 75vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.oak-cont{
+    height: 45%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.oak-pic{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    background-color: #EF81BD;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+    transition: all 0.23s ease-in-out;
+}
+
+.oak-pic:hover{
+    transform: scale(0.9);
+}
+
+img{
+    height: 185px;
+    width: 185px;
+    border-radius: 20%;
+}
+
+.oak-main {
+    height: 225px;
+    width: 750px;
+    /* border: 2px solid red; */
+    /* border-radius: 20%; */
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.oak-para{
+    border: 4px solid #5E548E;
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    color: #EF81BD;
+}
+
+.oak-para code{
+    color: #E0B1CB;
+    font-weight: 900;
+}
+
+.oak-input{
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+#input{
+    height: 100%;
+    width: 100%;
+    border: none; 
+    border-radius: 10px;
+    outline: none;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #E0B1CB;
+    background-color: #5E548E;
+    padding: 5px;
+}
+
+#poke-btn{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.23s ease-in-out;
+}
+
+#poke-btn img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid #EF81BD;
+}
+
+#poke-btn:hover{
+    transform: scale(0.9);
+}
+
+/* #poke-btn:focus{
+    transform: scale(1);
+} */
+
+.output-cont{
+    height: 250px;
+    width: 400px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: #5E548E;
+    /* background-color: #9F86C0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    border: 6px solid #EF81BD;
+    transition: all 0.23s ease-in-out;
+}
+
+.output-cont:hover{
+    transform: scale(0.95);
+}
+
+.output-para{
+    padding: 5px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    font-size: 2.5rem;
+    color: #090809;
+}
+
+.pokeball-img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 2px solid blue; */
+}
+
+#pokeball{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* #oakball{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+.hide{
+    display: none;
+}
+
+.poke-output{
+    height: 190px;
+    width: 100%;
+    /* display: flex;
+    /* justify-content: flex-start;
+    align-items: center;
+    flex-wrap: flex; */ 
+    padding: 10px;
+    width: 100%;
+}
+
+.poke-name{
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    padding: 5px;
+    width: 100%;
+    color: #BE95C4;
+}
+
+.poke-type{
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    padding: 5px;
+    width: 100%;
+    margin-top: 25px;
+    color: #090809;
+}
+
+#poke-type{
+    color: #E0B1CB;
+}
